@@ -8,7 +8,7 @@ describe('Automation - Working with Alerts', function () {
 
     })
 
-    it.only('Cypress Test Case - Simple Alert', function () {
+    it('Cypress Test Case - Simple Alert', function () {
 
 
         cy.contains('Click for JS Alert').click();
