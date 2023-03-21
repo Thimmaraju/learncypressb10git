@@ -17,6 +17,7 @@ Given('User launch the Application', () => {
   When(`User enter valid username {string} and Valid Password {string}`, (username, password) => {
 
        cy.xpath(login.usernameInput()).type(username)
+       
        cy.xpath(login.passwordInput()).type(password)
     
   })
