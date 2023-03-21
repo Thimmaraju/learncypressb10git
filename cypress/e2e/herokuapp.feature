@@ -12,4 +12,4 @@ Feature: Verify Login Functionality
         Examples:
             | username | password   |
             | raju1234 | raju123456 |
-            
+             | raju1234 | raju123456 |
